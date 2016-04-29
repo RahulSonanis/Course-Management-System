@@ -1,0 +1,268 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+.form-signin {
+  padding: 15px;
+  margin: 0 auto;
+  
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+
+.form-signin input {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 300px;
+  align:center;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 300px;
+  align:center;
+}
+
+.form-signin input[type="date"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 300px;
+}
+
+.form-signin select{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 300px;
+}
+.take-all-space
+{
+  width:50%;
+}
+
+.wrong-input
+{
+  color: red;
+  font-weight: 20;
+}
+.add-button
+{
+  width:50px;
+  height:50px;
+}
+
+.my-courses{
+  padding-left: 2%;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+
+.course{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+}
+.course:hover{
+  background-color: #d1d1e0;
+}
+.course-name{
+  font-size: 150%;
+  font-weight: 300;
+}
+
+
+.notice"{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+
+.news{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+
+}
+
+.news:hover{
+  background-color: #d1d1e0;
+}
+
+.nav-text{
+  color: white;
+  font-size: 150%;
+  padding-top: 0.50%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+.course-content{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    width: 30%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-left: 35%;
+}
+.button2:hover {
+  background-color: #99ff99; /* Green */
+  color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.course-id-name{
+  text-align: center;
+  font-size: 165%;
+}
+
+.begin-date{
+  text-align: center;
+  font-size: 90%;
+  font-family: monospace;
+}
+
+.offered-by{
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 300;
+}
+
+.title
+{
+  text-align:center;
+  font-size: 30px;
+}
+
+.date
+{
+  text-align: center;
+  font-size: 100%;
+  font-family: monospace;
+  padding-top: 1%;
+}
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+
+.info-box{
+  line-height: 20px;
+}
+
+.info-box[placeholder]
+{
+  line-height: 20px;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  background-color: #BDBDBD;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+  text-align: center;
+}
+.custom-span{ font-family: Arial; font-weight: bold;font-size: 100px; color: #FE57A1}
+#uploadFile{border: none;margin-left: 10px; width: 200px;}
+.custom-para{font-family: arial;font-weight: bold;font-size: 24px; color:#585858;}
+
+progress#progressBar:hover:after {
+    display: block;
+    content: attr(value);
+}
+
+.entry:not(:first-of-type)
+{
+    margin-top: 10px;
+}
+
+.glyphicon
+{
+    font-size: 12px;
+}

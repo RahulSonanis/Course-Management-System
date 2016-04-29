@@ -1,0 +1,304 @@
+.my-courses{
+  padding-left: 2%;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+
+.course{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+}
+.course:hover{
+  background-color: #d1d1e0;
+}
+.course-name{
+  font-size: 150%;
+  font-weight: 300;
+}
+
+
+.notice{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+
+.news{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+
+}
+
+.news:hover{
+  background-color: #d1d1e0;
+}
+
+.nav-text{
+  color: white;
+  font-size: 150%;
+  padding-top: 0.50%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+.course-content{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    width: 30%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-left: 35%;
+}
+.button2:hover {
+  background-color: #99ff99; /* Green */
+  color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.course-id-name{
+  text-align: center;
+  font-size: 165%;
+}
+
+.begin-date{
+  text-align: center;
+  font-size: 90%;
+  font-family: monospace;
+}
+
+.offered-by{
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 300;
+}
+
+.title
+{
+  text-align:center;
+  font-size: 30px;
+}
+
+.date
+{
+  text-align: center;
+  font-size: 100%;
+  font-family: monospace;
+  padding-top: 1%;
+}
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+
+.info-box{
+  line-height: 20px;
+}
+
+.info-box[placeholder]
+{
+  line-height: 20px;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  background-color: #BDBDBD;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+  text-align: center;
+}
+.custom-span{ font-family: Arial; font-weight: bold;font-size: 100px; color: #FE57A1}
+#uploadFile{border: none;margin-left: 10px; width: 200px;}
+.custom-para{font-family: arial;font-weight: bold;font-size: 24px; color:#585858;}
+
+progress#progressBar:hover:after {
+    display: block;
+    content: attr(value);
+}
+
+.all-course-header
+{
+  text-align: center;
+  margin-top: 5%;
+}
+.search {
+                width: 50%;
+                padding:8px 15px;
+                background:#ffffff;
+                border:0px solid #dbdbdb;
+
+}
+.search-button {
+                width: 10%;
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.search-button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+
+.search-box{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+/*input[type=text] {
+
+}*/
+/*.arrow{
+    position: relative;
+    left: -8px;
+    background: #207cca;
+    padding: 8px 15px;
+}
+
+
+.arrow:after{
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(32, 124, 202, 0);
+    border-right-color: #207cca;
+    border-width: 10px;
+    margin-top: -10px;
+}*/
+
+
+.search:focus{
+    outline-color: blue;
+    outline-width: thin;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color:    #909;
+}
+.clickable-row:hover{
+    cursor: pointer;
+}
+.mousescroll a{
+    color: black;
+}
+.mousescroll a:hover{
+    text-decoration: none;
+}
+
+.message-description{
+    margin-top: 1%;
+    color: #a6a6a6;
+}
+
+.sender-name{
+    color: #808080;
+}
+
+.message{
+    padding: 2%;
+    padding-right: 5%;
+}
+
+.message-unread{
+    padding: 2%;
+    padding-right: 5%;
+    background-color: #ebeef4;
+}
+
+.message:hover{
+    background-color: #f5f7fa;
+}
+
+.chatlist-header{
+    font-weight: bolder;
+    /*font-family: monospace;*/
+    padding: 2%;
+    padding-right: 5%;
+}

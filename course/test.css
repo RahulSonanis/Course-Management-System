@@ -1,0 +1,41 @@
+.heading{
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+	margin-left: 15%;
+}
+
+.question{
+	font-weight: bold;
+	font-size: 75%;
+	margin-left: 15%;
+}
+
+.button1{
+	text-align:center; 
+	font-weight:bold;
+	font-size:100%; 
+	margin-left: 37.5%;
+}
+
+#categorylist { 
+	margin-top: 6px; 
+} 
+
+
+#check-results { 
+	cursor: pointer; 
+}
+
+#check-results:hover { 
+	cursor: pointer;
+}
+
+#close-button { 
+	cursor: pointer;
+	display: none;
+}
+
+label{ 	
+	cursor: pointer; 
+} 

@@ -1,0 +1,116 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: left;
+}
+
+.course-block
+{
+	border-style: solid;
+	border-color: #d9d9d9;
+	text-align: centre;
+	border-width: 1px;
+	margin-left: 10px;
+	width:700px;
+}
+
+.course-name
+{
+	font-size: 40px;
+	margin-left: 10px;
+}
+
+.creator
+{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.creator2
+{
+	display: inline-block;
+}
+
+.my-courses{
+  padding-left: 2%;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+
+.course{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+}
+.course:hover{
+  background-color: #d1d1e0;
+}
+.course-name{
+  font-size: 150%;
+  font-weight: 300;
+}
+
+
+.notice{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+
+.news{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+
+}
+
+.news:hover{
+  background-color: #d1d1e0;
+}
+
+.nav-text{
+  color: white;
+  font-size: 150%;
+  padding-top: 0.50%;
+}
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}

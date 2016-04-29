@@ -1,0 +1,133 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: left;
+}
+
+.course-block
+{
+	border-style: solid;
+	border-color: #d9d9d9;
+	text-align: centre;
+	border-width: 1px;
+	margin-left: 10px;
+	width:700px;
+}
+
+.course-name
+{
+	font-size: 40px;
+	margin-left: 10px;
+}
+
+.creator
+{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.creator2
+{
+	display: inline-block;
+}
+
+.parent-panel{
+  margin-top: 0.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.no-notify{
+  text-align: center;
+  margin-top: 25%;
+}
+
+
+.success-button{
+  margin-right: 2%;
+}
+
+.head-panel{
+  margin-top: 3%;
+  margin-left: 1.5%;
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+  margin-right: 1.5%;
+}
+
+.my-courses{
+  padding-left: 2%;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.heading{
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-left: 1%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.button1{
+  text-align:center; 
+  font-weight:bold;
+  font-size:100%; 
+  margin-left: 37.5%;
+  margin-top: 2%;
+}
+
+.close-button{
+  margin-right: 1%;
+}
+
+.course{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+}
+
+.course:hover{
+  background-color: #d1d1e0;
+}
+.course-name{
+  font-size: 150%;
+  font-weight: 300;
+}
+
+
+.notice{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+
+.news{
+  margin: 3%;
+  padding: 2%;
+  border-color: black;
+  border-style: solid;;
+  border-width: thin;
+  color: black;
+
+}
+
+.news:hover{
+  background-color: #d1d1e0;
+}
+
+.nav-text{
+  color: white;
+  font-size: 150%;
+  padding-top: 0.50%;
+}
